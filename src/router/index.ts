@@ -3,7 +3,7 @@ import { components } from './asyncRouter'
 import { IMenubarList } from '/@/type/store/layout'
 
 const Components: IObject<() => Promise<typeof import('*.vue')>> = Object.assign({}, components, {
-    Layout: (() => import('/@/layout/index.vue')) as unknown as () => Promise<typeof import('*.vue')>
+    // Layout: (() => import('/@/layout/index.vue')) as unknown as () => Promise<typeof import('*.vue')>
 })
 
 export const allowRouter: Array<IMenubarList> = [

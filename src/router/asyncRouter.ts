@@ -1,6 +1,6 @@
 const modules = import.meta.glob('../views/**/**.vue')
 const components:IObject<() => Promise<typeof import('*.vue')>> = {
-    Layout: (() => import('/@/layout/index.vue')) as unknown as () => Promise<typeof import('*.vue')>
+    // Layout: (() => import('/@/layout/index.vue')) as unknown as () => Promise<typeof import('*.vue')>
 }
 
 Object.keys(modules).forEach(key => {
