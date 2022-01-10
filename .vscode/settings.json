@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.fixAll.stylelint": true 
+    },
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "vetur.validation.template": false,
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.validation.interpolation": false,
+    "css.validate": true
+}
