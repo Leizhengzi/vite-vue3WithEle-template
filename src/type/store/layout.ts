@@ -16,7 +16,7 @@ export interface IMenubarList {
     path: string
     redirect?: string | { name: string }
     meta: {
-        icon: string
+        icon?: string
         title: string
         permission?: string[]
         activeMenu?: string

@@ -33,11 +33,10 @@ router.beforeEach(async(to) => {
         .then(d => setToken(d.ACCESS_TOKEN))
         .catch()
 
-    if (getMenubar.menuList.length === 0) {
-        // generate routes
-
-        return to.fullPath
-    }
+    // if (getMenubar.menuList.length === 0) {
+    //     // generate routes
+    //     return to.fullPath
+    // }
 })
 
 router.afterEach(() => {
