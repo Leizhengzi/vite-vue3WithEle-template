@@ -1,12 +1,12 @@
 <template>
-    <div class="flex">
-       <div class="flex flex-1 flex-col overflow-x-hidden overflow-y-auto">
-           <div class="flex justify-between items-center h-12 shadow-sm overflow-hidden relative z-10">
+    <div>
+       <div class="overflow-x-hidden overflow-y-auto">
+           <div class="flex justify-between items-center h-75px shadow-sm overflow-hidden relative z-10">
                <layout-navbar />
            </div>
            <div class="flex overflow-hidden">
                 <layout-menubar />
-               <div class="flex-1 overflow-hidden h-screen">
+               <div class="overflow-hidden">
                     <layout-content />
                </div>
            </div>
